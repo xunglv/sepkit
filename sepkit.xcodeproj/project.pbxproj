@@ -19,6 +19,7 @@
 		A28934CD18BC404E00095B74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28934B518BC404E00095B74 /* UIKit.framework */; };
 		A28934D518BC404E00095B74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28934D318BC404E00095B74 /* InfoPlist.strings */; };
 		A28934D718BC404E00095B74 /* sepkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28934D618BC404E00095B74 /* sepkitTests.m */; };
+		A28934E218BC407200095B74 /* UIView+SEP.m in Sources */ = {isa = PBXBuildFile; fileRef = A28934E118BC407200095B74 /* UIView+SEP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A28934D218BC404E00095B74 /* sepkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sepkitTests-Info.plist"; sourceTree = "<group>"; };
 		A28934D418BC404E00095B74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A28934D618BC404E00095B74 /* sepkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sepkitTests.m; sourceTree = "<group>"; };
+		A28934E018BC407200095B74 /* UIView+SEP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SEP.h"; sourceTree = "<group>"; };
+		A28934E118BC407200095B74 /* UIView+SEP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SEP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				A28934C118BC404E00095B74 /* SEPAppDelegate.m */,
 				A28934C318BC404E00095B74 /* Images.xcassets */,
 				A28934B818BC404E00095B74 /* Supporting Files */,
+				A28934E018BC407200095B74 /* UIView+SEP.h */,
+				A28934E118BC407200095B74 /* UIView+SEP.m */,
 			);
 			path = sepkit;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				A28934BE18BC404E00095B74 /* main.m in Sources */,
 				A28934C218BC404E00095B74 /* SEPAppDelegate.m in Sources */,
+				A28934E218BC407200095B74 /* UIView+SEP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
